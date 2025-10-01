@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/username/repo-name.git',
+                    url: 'https://github.com/mrbhupendra1/server01-repo.git',
                     credentialsId: 'git-credentials'
             }
         }
